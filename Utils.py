@@ -1,6 +1,6 @@
 from imblearn.over_sampling import SMOTE, ADASYN, RandomOverSampler
 from imblearn.under_sampling import ClusterCentroids, RandomUnderSampler, NearMiss, EditedNearestNeighbours, RepeatedEditedNearestNeighbours, AllKNN, NeighbourhoodCleaningRule, OneSidedSelection
-from imblearn.combine import SMOTEENN,SMOTETomek
+from imblearn.combine import SMOTEENN, SMOTETomek
 
 def under_sampling(X,y,method):
   if method=='ClusterCentroids':
